@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+ 
+.row{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+}
+.Test{
+    text-align: center;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+    width: 100%;
+    max-width: 35px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px;
+    height: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav__links--wrapper{
+    display: flex;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-li{
+    padding: 0 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-link{
+    font-size: 10px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.btn{
+    font-size: 10px;
+    background: rgba(131,177,250,1);
+/* background: linear-gradient(280deg, rgba(235,174,249,1) 30%, rgba(131,177,250,1) 120%); */
+     border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+   padding: 10px 15px;
+   box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1) , 0px 1px 2px 0px rgba(0,0,0,0.06)  ;
+}
+
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.logo-text{
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(65, 65, 65);
+}
+
+.hero-img{
+    width: 100%;
+    max-width: 300px;
+}
+
+.hero-header{
+    color: white;
+    font-weight: 600;
+    font-size: 26px;
+    width: 100%;
+    max-width: 400px;
+    letter-spacing: .5px;
+    margin-bottom: 20px;
+}
+
+.btns-hero{
+  
+    /* background-color: white; */
+    color:#ffffff;
+    font-weight: 600;
+    font-size: 10px;
+    margin-right: 20px;
+    border-radius: 2px;
+    display: flex;
+ 
+}
+
+.hero--container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.hero-col1{
+    width: 50%;
+   
+}
+
+.hero{
+    margin-top: 50px;
+}
+
+.arrow{
+    width: 100%;
+    max-width: 13px;
+    margin-left: 10px;
+}
+
+.whitebg{
+    width: 310px;
+    height: 335px;
+    left: 5px;
+    top: 5px;
+    background-color: white;
+    position: absolute;
+    z-index: -1;
+}
+.hero-col2{
+position: relative;
 }
